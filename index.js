@@ -71,3 +71,16 @@ for (let i = 0; i < example4.length; i ++){
 for (let name of example4){
   console.log("Hello, I'm" + name);
 }
+for (let i in example4){
+  let name = example4[i];
+  console.log("Hello, name is" + name);
+}
+
+example4.forEach (function(name, i){
+  console.log("Hello..." + name);
+});
+
+while (example4.length > 0){
+  console.log(example4.pop());
+}
+
