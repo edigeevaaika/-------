@@ -80,7 +80,10 @@ example4.forEach (function(name, i){
   console.log("Hello..." + name);
 });
 
-while (example4.length > 0){
-  console.log(example4.pop());
-}
+// while (example4.length > 0){
+//   console.log(example4.pop());
+// }
 
+for (let name of example5){
+  console.log(name + " - " + name.length);
+}
