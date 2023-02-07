@@ -100,3 +100,12 @@ for (let i = 0; i < example6.length; i ++){
 }
 
 console.log(result);
+
+
+let example7 = [42,6,75,12,6,32,2];
+let getSum = 0;
+for (let i = 0; i < example7.length; i++){
+  getSum = getSum + example7[i];
+  
+}
+console.log(getSum);
