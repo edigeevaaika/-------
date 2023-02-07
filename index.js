@@ -87,3 +87,8 @@ example4.forEach (function(name, i){
 for (let name of example5){
   console.log(name + " - " + name.length);
 }
+
+console.log(example5)
+example5.forEach(function(name,i){
+  console.log(name.toLowerCase())
+});
