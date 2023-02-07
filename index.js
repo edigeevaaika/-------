@@ -92,3 +92,11 @@ console.log(example5)
 example5.forEach(function(name,i){
   console.log(name.toLowerCase())
 });
+
+let example6 = ["I ", "love " , "Karakol "];
+let result = "";
+for (let i = 0; i < example6.length; i ++){
+  result = result+ example6[i] + "";
+}
+
+console.log(result);
